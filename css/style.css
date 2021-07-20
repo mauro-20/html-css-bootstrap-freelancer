@@ -1,3 +1,9 @@
+/* typo */
+h2{
+  text-align: center;
+}
+
+
 /* header */
 header{
   padding-top: 1rem;
@@ -8,4 +14,18 @@ header{
 header li{
   display: inline-block;
   list-style: none;
+}
+
+/* main */
+.hero,
+.about{
+  color: #fff;
+  background-color: #1abc9c;
+}
+
+.portfolio .image{
+  height: 200px;
+  margin: 10px 0;
+  background-color: royalblue;
+  border-radius: 10px;
 }
