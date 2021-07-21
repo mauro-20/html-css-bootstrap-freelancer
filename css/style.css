@@ -70,7 +70,7 @@ section{
 #about{
   color: #fff;
 }
-#about button{
+.about-content > div{
   margin-top: 20px;
 }
 #contact{
