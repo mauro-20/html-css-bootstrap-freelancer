@@ -17,6 +17,9 @@ h2{
   font-weight: 600;
 }
 
+/* buttons */
+
+
 /* header */
 header{
   position: fixed;
@@ -66,6 +69,9 @@ section{
 }
 #about{
   color: #fff;
+}
+#about button{
+  margin-top: 20px;
 }
 #contact{
   color: #2c3e50;
