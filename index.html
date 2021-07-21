@@ -138,10 +138,29 @@
       <!-- section contact me -->
       <section id="contact" class="py-5">
         <div class="container">
-          <h2>CONTACT ME</h2>
+          <div class="row">
+            <div class="col text-center">
+              <h2>CONTACT ME</h2>
+              <div class="separator">----separator----</div>
+            </div>
+          </div>
           <div class="row justify-content-center">
-          <div class="col-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, impedit? Unde laborum, corrupti quaerat voluptates quisquam asperiores quod commodi, aperiam et rerum harum veniam aliquam nobis autem reprehenderit ut omnis?
+            <div class="col-8">
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Email Address">
+                </div>
+                <div class="mb-3">
+                  <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
             </div>
           </div>
         </div>
