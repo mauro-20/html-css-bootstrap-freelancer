@@ -8,6 +8,9 @@
 .bg_secondary{
   background-color: #1abc9c;
 }
+.text_secondary{
+  color: #1abc9c;
+}
 
 /* typo */
 body{
@@ -18,7 +21,8 @@ h2{
 }
 
 /* buttons */
-.btn-primary{
+.btn_secondary{
+  color: #fff;
   background-color: #1abc9c;
   border: #1abc9c;
 }
@@ -92,11 +96,28 @@ footer{
   text-align: center;
   color: #fff;
 }
-
-.footer-top{
-  background-color: #3a546d;
-}
-
+.footer-top,
 .footer-bottom{
-  background-color: #2c3e50;
+  padding: 40px 0;
+}
+.footer-top-social .circle{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.footer-top-social .circle:last-child{
+  margin-right: 0;
+}
+.footer-top-social .circle .icon{
+  line-height: 40px;
+  text-align: center;
+  font-size: small;
+}
+.footer-bottom .copyright{
+  font-size: smaller;
 }
