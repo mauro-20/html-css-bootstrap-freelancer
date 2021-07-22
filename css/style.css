@@ -24,7 +24,6 @@ h2{
 .btn_secondary{
   color: #fff;
   background-color: #1abc9c;
-  border: #1abc9c;
 }
 
 /* header */
@@ -56,6 +55,19 @@ header li{
 section{
   padding: 40px 0;
 }
+.separator{
+  margin-bottom: 1rem;
+}
+.separator-line{
+  display: inline-block;
+  width: 100px;
+  border: 1px solid currentColor;
+  border-radius: 1px;
+}
+.separator .fa-star{
+  margin: 0 2opx;
+  vertical-align: middle;
+}
 #hero{
   margin-top: 80px;
   color: #fff;
@@ -81,7 +93,7 @@ section{
 .about-content > div{
   margin-top: 20px;
 }
-.form-control::-webkit-input-placeholder{
+.form-control::placeholder{
   color: #2c3e50;
   font-weight: 600;
 }
@@ -106,7 +118,7 @@ footer{
   width: 40px;
   margin-right: 5px;
   text-decoration: none;
-  color: #fff;
+  color: inherit;
   border: 1px solid #fff;
   border-radius: 50%;
 }
