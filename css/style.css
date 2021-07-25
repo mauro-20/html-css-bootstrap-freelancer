@@ -56,18 +56,22 @@ header li{
 section{
   padding: 40px 0;
 }
-.separator{
+.divider{
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.separator-line{
+.divider::before,
+.divider::after{
+  content: "";
   display: inline-block;
   width: 100px;
-  border: 1px solid currentColor;
-  border-radius: 1px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
 }
-.separator .fa-star{
-  margin: 0 2opx;
-  vertical-align: middle;
+.divider .fa-star{
+  margin: 0 15px;
 }
 #hero{
   margin-top: 80px;
